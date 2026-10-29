@@ -1,0 +1,106 @@
+{
+  "name": "autumn",
+  "title": "Forever autumn",
+  "description": "The season that never ends: golden grass, copper woods, carpets of fallen leaves and harvested fields.",
+  "materials": {
+    "grass": {
+      "colors": [
+        "#6a4a14",
+        "#86601c",
+        "#a07624"
+      ]
+    },
+    "meadow": {
+      "pattern": "grass",
+      "colors": [
+        "#8a4a14",
+        "#a85e1c",
+        "#c07028"
+      ],
+      "param": 1
+    },
+    "needles": {
+      "colors": [
+        "#6a2a10",
+        "#8a3a14",
+        "#a84a1c"
+      ]
+    },
+    "moss": {
+      "pattern": "grass",
+      "colors": [
+        "#5a3a14",
+        "#70481a",
+        "#86561e"
+      ]
+    },
+    "farmland": {
+      "colors": [
+        "#5a3a14",
+        "#c0902c",
+        "#a87820"
+      ]
+    },
+    "water": {
+      "colors": [
+        "#1a4a52",
+        "#205a60",
+        "#2a6a6c"
+      ]
+    },
+    "deep": {
+      "colors": [
+        "#163a4a",
+        "#1c4656",
+        "#225262"
+      ]
+    },
+    "hedge": {
+      "colors": [
+        "#4a1a08",
+        "#8a3a10",
+        "#b0561a"
+      ]
+    },
+    "dirt": {
+      "colors": [
+        "#4a2c18",
+        "#58361e",
+        "#664026"
+      ],
+      "accent": "#c86a20"
+    },
+    "path": {
+      "colors": [
+        "#7a5030",
+        "#8a5c38",
+        "#9a6840"
+      ]
+    },
+    "swamp": {
+      "colors": [
+        "#3a2a14",
+        "#4a361a",
+        "#5a4220"
+      ]
+    }
+  },
+  "props": {
+    "tree": {
+      "color": "autumn"
+    },
+    "tree/fruit": {
+      "color": "crimson"
+    },
+    "bush": {
+      "color": "autumn"
+    },
+    "pine": {
+      "color": "gold"
+    },
+    "fern": {
+      "draw": "flowers"
+    }
+  },
+  "prop_filter": "sepia(0.2) saturate(1.25)"
+}

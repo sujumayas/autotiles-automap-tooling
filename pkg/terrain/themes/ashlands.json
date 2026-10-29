@@ -1,0 +1,164 @@
+{
+  "name": "ashlands",
+  "title": "Ashlands",
+  "description": "A volcanic night world. Black ash plains with embers, obsidian shores, rivers of lava that light the dark.",
+  "materials": {
+    "deep": {
+      "pattern": "lava",
+      "colors": [
+        "#3a1408",
+        "#e0501a",
+        "#ffb030"
+      ],
+      "accent": "#fff0a0",
+      "glow": true
+    },
+    "water": {
+      "pattern": "lava",
+      "colors": [
+        "#3a1408",
+        "#e0501a",
+        "#ffb030"
+      ],
+      "accent": "#fff0a0",
+      "glow": true
+    },
+    "cavewater": {
+      "pattern": "lava",
+      "colors": [
+        "#3a1408",
+        "#e0501a",
+        "#ffb030"
+      ],
+      "accent": "#fff0a0",
+      "glow": true
+    },
+    "marsh": {
+      "pattern": "lava",
+      "colors": [
+        "#1a0a06",
+        "#8a2a10",
+        "#d05a1a"
+      ],
+      "accent": "#ffc060",
+      "glow": true
+    },
+    "grass": {
+      "pattern": "dirt",
+      "colors": [
+        "#141210",
+        "#1c1a17",
+        "#26231f"
+      ],
+      "accent": "#ff6a20"
+    },
+    "meadow": {
+      "pattern": "dirt",
+      "colors": [
+        "#1a1614",
+        "#221e1a",
+        "#2c2722"
+      ],
+      "accent": "#ffa040"
+    },
+    "needles": {
+      "pattern": "gravel",
+      "colors": [
+        "#100e0c",
+        "#1a1715",
+        "#24201c"
+      ]
+    },
+    "sand": {
+      "pattern": "rock",
+      "colors": [
+        "#0a0a10",
+        "#14141c",
+        "#2a2a3a"
+      ]
+    },
+    "dirt": {
+      "colors": [
+        "#1c1612",
+        "#241c16",
+        "#2e241c"
+      ],
+      "accent": "#e05018"
+    },
+    "snow": {
+      "pattern": "gravel",
+      "colors": [
+        "#3a3634",
+        "#4a4644",
+        "#5a5654"
+      ]
+    },
+    "farmland": {
+      "colors": [
+        "#100c0a",
+        "#2a1a12",
+        "#3a2418"
+      ]
+    },
+    "path": {
+      "colors": [
+        "#2a221c",
+        "#342a22",
+        "#3e3228"
+      ]
+    },
+    "mountain": {
+      "colors": [
+        "#1a1614",
+        "#26201c",
+        "#3a302a"
+      ]
+    },
+    "swamp": {
+      "colors": [
+        "#1a120e",
+        "#241812",
+        "#2e1e16"
+      ]
+    },
+    "cliff": {
+      "colors": [
+        "#0e0c0a",
+        "#16130f",
+        "#5a2a14"
+      ]
+    },
+    "hedge": {
+      "pattern": "rock",
+      "colors": [
+        "#100e0c",
+        "#1a1715",
+        "#3a2a20"
+      ]
+    }
+  },
+  "props": {
+    "tree": {
+      "draw": "bare"
+    },
+    "pine": {
+      "draw": "bare"
+    },
+    "bush": {
+      "color": "ash"
+    },
+    "flowers": {
+      "draw": "pebbles",
+      "color": "rubble"
+    },
+    "fern": {
+      "draw": "pebbles",
+      "color": "rubble"
+    },
+    "reeds": {
+      "draw": "bare"
+    }
+  },
+  "prop_filter": "brightness(0.75) sepia(0.4)",
+  "surface_light": 8
+}

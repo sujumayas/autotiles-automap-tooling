@@ -1,0 +1,157 @@
+{
+  "name": "candy",
+  "title": "Candy planet",
+  "description": "Pink sugar meadows, mint lawns, soda seas, chocolate soil, caramel roads and gingerbread houses.",
+  "materials": {
+    "grass": {
+      "colors": [
+        "#d86aa0",
+        "#e888b8",
+        "#f4a8cc"
+      ]
+    },
+    "meadow": {
+      "pattern": "grass",
+      "colors": [
+        "#5ac8a0",
+        "#7ad8b4",
+        "#9ae8c8"
+      ],
+      "param": 1
+    },
+    "needles": {
+      "pattern": "grass",
+      "colors": [
+        "#c0a0e0",
+        "#d4b8ee",
+        "#e4ccf6"
+      ]
+    },
+    "water": {
+      "colors": [
+        "#3ac0d0",
+        "#5ad0dc",
+        "#7ae0e8"
+      ],
+      "accent": "#ffffff"
+    },
+    "deep": {
+      "colors": [
+        "#7a3aa8",
+        "#8a4ab8",
+        "#9a5ac8"
+      ],
+      "accent": "#f0d0ff"
+    },
+    "sand": {
+      "colors": [
+        "#f0d8e0",
+        "#f8e4ea",
+        "#fff0f4"
+      ]
+    },
+    "dirt": {
+      "colors": [
+        "#4a2414",
+        "#5a2e1a",
+        "#6a3820"
+      ],
+      "accent": "#f0c8a0"
+    },
+    "path": {
+      "colors": [
+        "#c07a30",
+        "#d08a3a",
+        "#e09a48"
+      ]
+    },
+    "cobble": {
+      "colors": [
+        "#e0a0c0",
+        "#a0d8f0",
+        "#f0e0a0"
+      ]
+    },
+    "plaza": {
+      "colors": [
+        "#f0b8d0",
+        "#f8d0e0",
+        "#ffe8f0"
+      ]
+    },
+    "snow": {
+      "colors": [
+        "#f0e8e0",
+        "#faf6f0",
+        "#ffffff"
+      ]
+    },
+    "farmland": {
+      "colors": [
+        "#4a2414",
+        "#f4a8cc",
+        "#9ae8c8"
+      ]
+    },
+    "housewall": {
+      "colors": [
+        "#5a2a10",
+        "#c0783a",
+        "#e09a58"
+      ]
+    },
+    "woodfloor": {
+      "colors": [
+        "#a0502a",
+        "#b8623a",
+        "#d07a4a"
+      ]
+    },
+    "hedge": {
+      "colors": [
+        "#c04a88",
+        "#e070a8",
+        "#fff0f6"
+      ]
+    },
+    "mountain": {
+      "colors": [
+        "#c8a0d8",
+        "#d8b4e4",
+        "#e8c8f0"
+      ]
+    },
+    "cliff": {
+      "colors": [
+        "#6a3a7a",
+        "#7a4a8a",
+        "#c8a0d8"
+      ]
+    },
+    "marsh": {
+      "colors": [
+        "#c08a4a",
+        "#d09a58",
+        "#e0aa68"
+      ]
+    }
+  },
+  "props": {
+    "tree": {
+      "color": "candy"
+    },
+    "tree/fruit": {
+      "color": "mint"
+    },
+    "pine": {
+      "color": "mint"
+    },
+    "bush": {
+      "color": "candy"
+    },
+    "rock": {
+      "draw": "crystal"
+    }
+  },
+  "prop_filter": "saturate(1.35)"
+}

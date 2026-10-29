@@ -1,0 +1,141 @@
+{
+  "name": "toxic",
+  "title": "Toxic wasteland",
+  "description": "After the fall. Glowing green sludge where the water was, ash for soil, dead woods and sick yellow scrub.",
+  "materials": {
+    "deep": {
+      "colors": [
+        "#1a3a0a",
+        "#2a5a10",
+        "#3a7a18"
+      ],
+      "accent": "#d0ff40",
+      "glow": true
+    },
+    "water": {
+      "colors": [
+        "#3a7a10",
+        "#5a9a18",
+        "#7aba20"
+      ],
+      "accent": "#e8ff60",
+      "glow": true
+    },
+    "marsh": {
+      "colors": [
+        "#2a3a0a",
+        "#3a4a10",
+        "#4a5a18"
+      ],
+      "accent": "#b0e020"
+    },
+    "cavewater": {
+      "colors": [
+        "#1a4a0a",
+        "#2a6a10",
+        "#4a9a18"
+      ],
+      "accent": "#d0ff40",
+      "glow": true
+    },
+    "grass": {
+      "pattern": "grass",
+      "colors": [
+        "#5a5a24",
+        "#6a682a",
+        "#7a7632"
+      ]
+    },
+    "meadow": {
+      "pattern": "needles",
+      "colors": [
+        "#5a5428",
+        "#6a6230",
+        "#7a7038"
+      ]
+    },
+    "needles": {
+      "colors": [
+        "#3a3630",
+        "#4a4640",
+        "#5a5650"
+      ]
+    },
+    "dirt": {
+      "colors": [
+        "#3a3632",
+        "#46423c",
+        "#524c46"
+      ],
+      "accent": "#a8c820"
+    },
+    "sand": {
+      "pattern": "gravel",
+      "colors": [
+        "#5a5650",
+        "#6a6660",
+        "#7a7670"
+      ]
+    },
+    "snow": {
+      "pattern": "gravel",
+      "colors": [
+        "#7a7672",
+        "#8a8682",
+        "#9a9692"
+      ]
+    },
+    "farmland": {
+      "colors": [
+        "#2a2620",
+        "#4a4438",
+        "#5a5446"
+      ]
+    },
+    "path": {
+      "colors": [
+        "#5a5248",
+        "#665e54",
+        "#726a60"
+      ]
+    },
+    "moss": {
+      "colors": [
+        "#3a4a14",
+        "#4a5c1a",
+        "#5a6e20"
+      ]
+    },
+    "hedge": {
+      "pattern": "rock",
+      "colors": [
+        "#3a3630",
+        "#46423c",
+        "#5a5650"
+      ]
+    }
+  },
+  "props": {
+    "tree": {
+      "draw": "bare"
+    },
+    "tree/fruit": {
+      "draw": "bare"
+    },
+    "pine": {
+      "draw": "bare"
+    },
+    "bush": {
+      "color": "toxic"
+    },
+    "flowers": {
+      "draw": "pebbles",
+      "color": "rubble"
+    },
+    "mushrooms": {
+      "color": "glow"
+    }
+  },
+  "prop_filter": "saturate(0.75) sepia(0.3) hue-rotate(25deg)",
+  "surface_light": 12
+}

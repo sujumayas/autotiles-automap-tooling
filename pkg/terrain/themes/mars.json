@@ -1,0 +1,268 @@
+{
+  "name": "mars",
+  "title": "Mars",
+  "description": "A rust planet. Seas are lava, snow is pale dune sand, fields are red furrows, and the trees are rock and crystal. Settlements read as colony habitats.",
+  "materials": {
+    "deep": {
+      "pattern": "lava",
+      "colors": [
+        "#3a1408",
+        "#e0501a",
+        "#ffb030"
+      ],
+      "accent": "#fff0a0",
+      "glow": true
+    },
+    "water": {
+      "pattern": "lava",
+      "colors": [
+        "#3a1408",
+        "#e0501a",
+        "#ffb030"
+      ],
+      "accent": "#fff0a0",
+      "glow": true
+    },
+    "cavewater": {
+      "pattern": "lava",
+      "colors": [
+        "#2a0e06",
+        "#b0401a",
+        "#ff9020"
+      ],
+      "accent": "#ffe080",
+      "glow": true
+    },
+    "marsh": {
+      "pattern": "water",
+      "colors": [
+        "#2a1418",
+        "#3a1c20",
+        "#4a2428"
+      ],
+      "accent": "#8a4a3a"
+    },
+    "sand": {
+      "colors": [
+        "#a0502a",
+        "#b8623a",
+        "#c8744a"
+      ]
+    },
+    "swamp": {
+      "colors": [
+        "#4a2014",
+        "#5a2a1a",
+        "#6a3420"
+      ]
+    },
+    "dirt": {
+      "colors": [
+        "#6a2a16",
+        "#7a341c",
+        "#8a3e22"
+      ],
+      "accent": "#c87a4a"
+    },
+    "gravel": {
+      "colors": [
+        "#6a3a28",
+        "#804634",
+        "#965440"
+      ]
+    },
+    "mountain": {
+      "colors": [
+        "#7a3a24",
+        "#8a462c",
+        "#9a5436"
+      ]
+    },
+    "grass": {
+      "pattern": "dirt",
+      "colors": [
+        "#8a3c1e",
+        "#9a4824",
+        "#aa562c"
+      ],
+      "accent": "#d89060",
+      "noise": 0.5
+    },
+    "meadow": {
+      "pattern": "gravel",
+      "colors": [
+        "#8a4422",
+        "#9e5230",
+        "#b0603a"
+      ]
+    },
+    "needles": {
+      "pattern": "gravel",
+      "colors": [
+        "#5a2a18",
+        "#6a3420",
+        "#7a3e28"
+      ]
+    },
+    "snow": {
+      "pattern": "sand",
+      "colors": [
+        "#c8945a",
+        "#d8a86c",
+        "#e6bc80"
+      ]
+    },
+    "farmland": {
+      "colors": [
+        "#4a1c10",
+        "#8a3c22",
+        "#a04a2a"
+      ]
+    },
+    "path": {
+      "colors": [
+        "#a0603a",
+        "#b06e44",
+        "#c07c4e"
+      ]
+    },
+    "moss": {
+      "pattern": "dirt",
+      "colors": [
+        "#4a2418",
+        "#5a2c1e",
+        "#6a3624"
+      ]
+    },
+    "cavefloor": {
+      "colors": [
+        "#4a2a20",
+        "#583228",
+        "#663c30"
+      ]
+    },
+    "cliff": {
+      "colors": [
+        "#3a1a10",
+        "#4a2216",
+        "#8a4a30"
+      ]
+    },
+    "snowcliff": {
+      "colors": [
+        "#7a4a2a",
+        "#a06a40",
+        "#c08a58"
+      ]
+    },
+    "cavewall": {
+      "colors": [
+        "#200e08",
+        "#2c140c",
+        "#6a3a24"
+      ]
+    },
+    "bedrock": {
+      "colors": [
+        "#140806",
+        "#1c0c08",
+        "#3a1c10"
+      ]
+    },
+    "hedge": {
+      "pattern": "rock",
+      "colors": [
+        "#4a2216",
+        "#5a2c1c",
+        "#7a3e28"
+      ]
+    },
+    "cobble": {
+      "colors": [
+        "#6a6a70",
+        "#7e7e86",
+        "#94949c"
+      ]
+    },
+    "plaza": {
+      "pattern": "metal",
+      "colors": [
+        "#2c3036",
+        "#5a6068",
+        "#747a84"
+      ]
+    },
+    "housewall": {
+      "colors": [
+        "#3a3e44",
+        "#c8ccd2",
+        "#e4e8ec"
+      ]
+    },
+    "woodfloor": {
+      "pattern": "metal",
+      "colors": [
+        "#2c3036",
+        "#4a5058",
+        "#646b74"
+      ]
+    },
+    "stonefloor": {
+      "pattern": "tiles",
+      "colors": [
+        "#6a7078",
+        "#a8acb4",
+        "#c0c4ca"
+      ]
+    },
+    "fence": {
+      "colors": [
+        "#2c3036",
+        "#5a6068",
+        "#8a9098"
+      ]
+    }
+  },
+  "props": {
+    "tree": {
+      "draw": "rock",
+      "color": "big"
+    },
+    "pine": {
+      "draw": "stalagmite"
+    },
+    "bare": {
+      "draw": "stalagmite"
+    },
+    "bush": {
+      "draw": "rock"
+    },
+    "flowers": {
+      "draw": "pebbles",
+      "color": "rubble"
+    },
+    "fern": {
+      "draw": "pebbles",
+      "color": "rubble"
+    },
+    "reeds": {
+      "draw": "pebbles",
+      "color": "rubble"
+    },
+    "lily": {
+      "draw": "pebbles",
+      "color": "rubble"
+    },
+    "mushrooms": {
+      "draw": "crystal"
+    },
+    "stump": {
+      "draw": "rock"
+    },
+    "log": {
+      "draw": "pebbles",
+      "color": "rubble"
+    }
+  },
+  "prop_filter": "sepia(0.55) saturate(1.5) hue-rotate(-18deg)"
+}

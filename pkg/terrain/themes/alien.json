@@ -1,0 +1,150 @@
+{
+  "name": "alien",
+  "title": "Bioluminescent jungle",
+  "description": "A night planet that glows. Violet moss, teal grass, light-blue water that shines on its own, and trees that pulse with colour.",
+  "materials": {
+    "deep": {
+      "colors": [
+        "#0a1a3a",
+        "#0e2850",
+        "#123668"
+      ],
+      "accent": "#5af0ff",
+      "glow": true
+    },
+    "water": {
+      "colors": [
+        "#106a8a",
+        "#1888a8",
+        "#20a8c8"
+      ],
+      "accent": "#a0ffff",
+      "glow": true
+    },
+    "marsh": {
+      "colors": [
+        "#1a0a3a",
+        "#2a1050",
+        "#3a1868"
+      ],
+      "accent": "#d080ff",
+      "glow": true
+    },
+    "cavewater": {
+      "colors": [
+        "#0a3a4a",
+        "#105a6a",
+        "#18808a"
+      ],
+      "accent": "#80ffff",
+      "glow": true
+    },
+    "grass": {
+      "colors": [
+        "#0e3a3a",
+        "#125050",
+        "#186868"
+      ]
+    },
+    "meadow": {
+      "pattern": "grass",
+      "colors": [
+        "#2a1050",
+        "#3a1868",
+        "#4a2280"
+      ],
+      "param": 1
+    },
+    "needles": {
+      "colors": [
+        "#1a1030",
+        "#24183e",
+        "#2e204c"
+      ]
+    },
+    "moss": {
+      "pattern": "grass",
+      "colors": [
+        "#3a1a6a",
+        "#4a2280",
+        "#5a2a9a"
+      ],
+      "glow": true
+    },
+    "sand": {
+      "colors": [
+        "#3a3a6a",
+        "#4a4a80",
+        "#5a5a96"
+      ]
+    },
+    "dirt": {
+      "colors": [
+        "#1a1428",
+        "#221a34",
+        "#2a2040"
+      ],
+      "accent": "#70fff0"
+    },
+    "path": {
+      "colors": [
+        "#2a2448",
+        "#342c56",
+        "#3e3464"
+      ]
+    },
+    "farmland": {
+      "colors": [
+        "#1a1030",
+        "#20a0a0",
+        "#3a1868"
+      ]
+    },
+    "snow": {
+      "pattern": "grass",
+      "colors": [
+        "#40a8c0",
+        "#60c8d8",
+        "#90e8f0"
+      ],
+      "glow": true
+    },
+    "mountain": {
+      "colors": [
+        "#1a1830",
+        "#24203e",
+        "#302a4e"
+      ]
+    },
+    "hedge": {
+      "colors": [
+        "#140a2a",
+        "#3a1a6a",
+        "#20b0b0"
+      ]
+    }
+  },
+  "props": {
+    "tree": {
+      "color": "alien"
+    },
+    "tree/fruit": {
+      "color": "alien"
+    },
+    "pine": {
+      "color": "alien"
+    },
+    "bush": {
+      "color": "alien"
+    },
+    "mushrooms": {
+      "color": "glow"
+    },
+    "fern": {
+      "draw": "mushrooms",
+      "color": "glow"
+    }
+  },
+  "prop_filter": "saturate(1.3)",
+  "surface_light": 10
+}

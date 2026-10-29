@@ -1,0 +1,156 @@
+{
+  "name": "winter",
+  "title": "Winter",
+  "description": "A frozen world. Grass is snow, ponds freeze to ice, fields lie under drifts and every tree is a snowy pine.",
+  "materials": {
+    "deep": {
+      "colors": [
+        "#1c3448",
+        "#244258",
+        "#2e5068"
+      ],
+      "accent": "#eef6fa"
+    },
+    "water": {
+      "colors": [
+        "#3a6a80",
+        "#4a7c92",
+        "#5a8ea4"
+      ],
+      "accent": "#f4fbff"
+    },
+    "marsh": {
+      "pattern": "snow",
+      "colors": [
+        "#9ab8cc",
+        "#b8d0e0",
+        "#cce0ec"
+      ]
+    },
+    "sand": {
+      "pattern": "snow",
+      "colors": [
+        "#a8b4c0",
+        "#c4ced8",
+        "#d6dee6"
+      ]
+    },
+    "swamp": {
+      "colors": [
+        "#5a6068",
+        "#6a7078",
+        "#7a8088"
+      ]
+    },
+    "dirt": {
+      "colors": [
+        "#4a4440",
+        "#57504a",
+        "#645c54"
+      ],
+      "accent": "#e8eef4"
+    },
+    "grass": {
+      "pattern": "snow",
+      "colors": [
+        "#b8c8da",
+        "#dce6f0",
+        "#eef3f8"
+      ]
+    },
+    "meadow": {
+      "pattern": "snow",
+      "colors": [
+        "#c0cede",
+        "#e4ecf4",
+        "#f4f8fb"
+      ]
+    },
+    "needles": {
+      "pattern": "snow",
+      "colors": [
+        "#a8b8c8",
+        "#ccd8e4",
+        "#e0e8f0"
+      ]
+    },
+    "farmland": {
+      "pattern": "field",
+      "colors": [
+        "#9aa8b8",
+        "#e0e8f0",
+        "#c8d4e0"
+      ]
+    },
+    "path": {
+      "colors": [
+        "#8a8a90",
+        "#9a9aa2",
+        "#aaaab2"
+      ]
+    },
+    "cobble": {
+      "colors": [
+        "#8a8e96",
+        "#a4a8b0",
+        "#c4c8d0"
+      ]
+    },
+    "moss": {
+      "pattern": "snow",
+      "colors": [
+        "#8aa0b0",
+        "#a8bccc",
+        "#c0d0dc"
+      ]
+    },
+    "hedge": {
+      "colors": [
+        "#5a7a6a",
+        "#c8d8e0",
+        "#e8f0f4"
+      ]
+    },
+    "mountain": {
+      "colors": [
+        "#8a929c",
+        "#a0a8b2",
+        "#c8d0d8"
+      ]
+    },
+    "cliff": {
+      "colors": [
+        "#5a6470",
+        "#6a7480",
+        "#d8e2ec"
+      ]
+    }
+  },
+  "props": {
+    "tree": {
+      "draw": "pine",
+      "color": "snow"
+    },
+    "pine": {
+      "color": "snow"
+    },
+    "bush": {
+      "color": "frost"
+    },
+    "bare": {
+      "color": ""
+    },
+    "flowers": {
+      "draw": "pebbles",
+      "color": "shell"
+    },
+    "fern": {
+      "draw": "pebbles",
+      "color": "shell"
+    },
+    "reeds": {
+      "draw": "bare"
+    }
+  },
+  "prop_filter": "saturate(0.7) brightness(1.05)"
+}
